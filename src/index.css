@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@font-face {
+  font-family: "HouschkaPro-Medium";
+  src: local("HouschkaPro-Medium"),
+    url("./fonts/HouschkaPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HouschkaPro-DemiBold";
+  src: local("HouschkaPro-DemiBold"),
+    url("./fonts/HouschkaPro-DemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HouschkaPro-Bold";
+  src: local("HouschkaPro-Bold"),
+    url("./fonts/HouschkaPro-Bold.ttf") format("truetype");
+}
+
+html {
+  font-family: "HouschkaPro-Medium";
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.latoo {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
