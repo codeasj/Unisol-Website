@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import HospitalityBanner from "../../components/HospitalityBanner";
 import { FaArrowDown } from "react-icons/fa6";
-import HospitalityCarousel from "../../components/hospitalityCarousel";
+import HospitalityCarousel from "../../components/HospitalityCarousel";
 import WasteManagementCard from "../../components/WasteManagementCard";
 import WasteManagementAboutus from "../../components/WasteManagementAboutus";
 import ContactUs from "../../components/ContactUs";
